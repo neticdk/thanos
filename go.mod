@@ -286,4 +286,6 @@ replace (
 	k8s.io/klog/v2 => github.com/simonpasquier/klog-gokit/v3 v3.0.0
 )
 
-replace github.com/thanos-io/thanos => github.com/neticdk/thanos v0.27.0-rc.0.0.20221115052455-f951e32fae9e
+replace github.com/thanos-io/thanos => github.com/neticdk/thanos v0.30.2
+
+replace github.com/thanos-io/objstore => github.com/neticdk/objstore v0.0.1
